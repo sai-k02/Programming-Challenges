@@ -7,7 +7,7 @@ def updateRows(columnToRows, matrix, itr):
     rowToWorkWith = (len(columnToRows)-1)-itr
     columnToRows[rowToWorkWith] = matrix
         
-
+ 
 # to rotate the matrix, all we need to do is to find the columns and go ahead and put them as rows 
 def rotate(matrix): 
     # define num columns 
